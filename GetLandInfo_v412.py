@@ -139,7 +139,7 @@ def get_type(x_pos, y_pos):
         "accept": "*/*",
         "accept-encoding": "gzip, deflate, br",
         "accept-language": "zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7",
-        "cookie": "ExtentJS=24.194706399020145,120.69023354734935,19; ASP.NET_SessionId=nyymmbs0k4vphc0t51fdgqoy; _ga=GA1.3.1580569695.1680751244",
+        "cookie": f"ExtentJS={str(y_pos)},{str(x_pos)},19; ASP.NET_SessionId=nyymmbs0k4vphc0t51fdgqoy; _ga=GA1.3.1580569695.1680751244",
         "referer": "https://nsp.tcd.gov.tw/tcdgm/Default.aspx",
         "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
         "sec-ch-ua-mobile": "?0",
